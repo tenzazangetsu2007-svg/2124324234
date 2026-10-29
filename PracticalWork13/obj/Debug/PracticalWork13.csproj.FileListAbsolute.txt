@@ -1,0 +1,7 @@
+C:\Users\okhlo\Desktop\PracticalWork13\src\PracticalWork13\bin\Debug\PracticalWork13.exe.config
+C:\Users\okhlo\Desktop\PracticalWork13\src\PracticalWork13\bin\Debug\PracticalWork13.exe
+C:\Users\okhlo\Desktop\PracticalWork13\src\PracticalWork13\bin\Debug\PracticalWork13.pdb
+C:\Users\okhlo\Desktop\PracticalWork13\src\PracticalWork13\obj\Debug\PracticalWork13.csproj.CoreCompileInputs.cache
+C:\Users\okhlo\Desktop\PracticalWork13\src\PracticalWork13\obj\Debug\PracticalWork13.exe
+C:\Users\okhlo\Desktop\PracticalWork13\src\PracticalWork13\obj\Debug\PracticalWork13.pdb
+C:\Users\okhlo\Desktop\PracticalWork13\src\PracticalWork13\obj\Debug\PracticalWork13.csproj.AssemblyReference.cache

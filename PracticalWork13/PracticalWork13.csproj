@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>DB06F8C8-5BCE-42D6-AE9F-1020F497C234</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PracticalWork13</RootNamespace>
+    <AssemblyName>PracticalWork13</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\ValidationException.cs" />
+    <Compile Include="Orders\Cart.cs" />
+    <Compile Include="Orders\Customer.cs" />
+    <Compile Include="Orders\CustomerService.cs" />
+    <Compile Include="Orders\DiscountService.cs" />
+    <Compile Include="Orders\Order.cs" />
+    <Compile Include="Orders\OrderService.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="University\Student.cs" />
+    <Compile Include="University\UniversityService.cs" />
+    <Compile Include="Warehouse\AuthService.cs" />
+    <Compile Include="Warehouse\Product.cs" />
+    <Compile Include="Warehouse\ProductCatalog.cs" />
+    <Compile Include="Warehouse\ProductValidator.cs" />
+    <Compile Include="Warehouse\StockManager.cs" />
+    <Compile Include="Warehouse\StockReport.cs" />
+    <Compile Include="Warehouse\User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
